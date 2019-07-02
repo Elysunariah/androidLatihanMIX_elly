@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="pertama"
+          android:icon="@drawable/home"></item>
+    <item android:id="@+id/kdua"
+          android:title="kedua"
+          android:icon="@drawable/search"></item>
+    <item android:title="ketiga"
+          android:icon="@drawable/plusbutton"></item>
+    <item android:title="keempat"
+          android:icon="@drawable/heart"></item>
+    <item android:title="kelima"
+          android:icon="@drawable/avatar"></item>
+
+</menu>

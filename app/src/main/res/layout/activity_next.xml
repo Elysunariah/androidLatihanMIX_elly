@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+            android:background="#ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+        <ImageView
+                android:id="@+id/imageViewIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                app:srcCompat="@drawable/profil"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvName"
+                    android:text="nama"/>
+    <TextView
+            android:id="@+id/tvMet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:gravity="center_vertical"
+            android:text="Lokasi"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/cat" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isi Konten Dari Update Status"
+                android:textSize="20sp"
+                android:id="@+id/tv_negara"
+                android:paddingStart="20dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Komentari"
+                android:textSize="20sp"
+                android:id="@+id/tv_negaraN"
+                android:paddingStart="20dp"/>
+        <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:background="@android:color/darker_gray">
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
