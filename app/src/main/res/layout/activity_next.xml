@@ -37,7 +37,10 @@
             android:lines="1"
             android:gravity="center_vertical"
             android:text="Lokasi"/>
+
+
         </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -69,8 +72,8 @@
                 android:layout_height="360dp"
                 android:background="@android:color/darker_gray">
 
-        </android.support.v7.widget.Toolbar>
 
+        </android.support.v7.widget.Toolbar>
 
     </LinearLayout>
 
